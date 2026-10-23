@@ -3,7 +3,9 @@ import { useMemo, useState } from "react";
 import { BookOpenCheck, Save } from "lucide-react";
 import { toast } from "sonner";
 import { useAcademic } from "@/components/academic/store";
-import { COURSES, STUDENTS, TEST_TYPES, type TestType } from "@/components/academic/data";
+import { COURSES, STUDENTS, type TestType } from "@/components/academic/data";
+
+const TEST_TYPES: TestType[] = ["Term Test", "Midterm", "Final"];
 
 export const Route = createFileRoute("/_app/academic/gradebook")({
   component: AcademicGradebook,
