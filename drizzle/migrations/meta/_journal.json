@@ -36,6 +36,13 @@
       "when": 1792733518490,
       "tag": "0004_rush_hub_schema",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1792734146398,
+      "tag": "0005_rush_hub_schema",
+      "breakpoints": true
     }
   ]
 }
